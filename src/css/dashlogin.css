@@ -1,0 +1,90 @@
+.login_wrapper{
+    width: 100%;
+    padding: 10px;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+
+.login_wrapper > label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.login_wrapper span a{
+    margin-right: 80px;
+
+}
+
+
+.login_wrapper > h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.inner_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    margin:100px auto;
+    width: 920px;
+    
+    background-color: #fff;
+    border-radius: 6px;
+    
+    
+}
+
+.inner_wrapper > form{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    padding:25px;
+    
+}
+
+
+
+.inner_wrapper > form input[type="text"], input[type="password"]{
+    margin:12px 0px;
+    padding:7px;
+    width: 400px;
+    border: 1px solid #75c9b7;
+    border-radius: 6px;
+}
+
+.inner_wrapper > form input[type="text"], input[type="password"]:focus{
+    outline: none;
+}
+
+.inner_wrapper > form input[type="checkbox"]{
+    margin-right:10px;
+}
+
+
+
+
+.inner_wrapper > form input[type="button"]{
+    margin:10px 0px;
+    padding:10px;
+    width: 400px;
+    background-color: #75c9b7;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: aliceblue;
+}
+
+.log{
+    width: 400px;
+    height: 600px;
+    padding:0;
+    margin:0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

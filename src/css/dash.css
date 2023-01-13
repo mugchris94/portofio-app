@@ -1,0 +1,178 @@
+.dash-wrapper{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items:normal;
+}
+
+
+
+
+.dash-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px 5px;
+    min-width: 100px;
+}
+
+.dash-nav > form{
+    display: inline-block;
+    
+    
+}
+
+.dash-nav >  form input[type="text"]{
+    padding:8px 15px;
+    width: 400px;
+    border-radius:4px;
+    border: 1px solid grey;
+    }
+
+.dash-nav >  form input[type="submit"]{
+    padding: 7px 25px;
+    margin-left: 14px;
+    background-color: #64af8c;
+    border:1px solid #64af8c;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.dash-nav > nav ul {
+    list-style: none;
+    list-style-type: none;
+    
+}
+
+.dash-nav > nav ul li{
+   
+    display: inline-block;
+   
+}
+.dash-nav > nav ul a{
+    text-decoration: none;
+    text-transform: none;
+    color: #64af8c;
+    padding:7px 8px;
+}
+
+
+
+
+
+
+
+
+
+.dash-nav > h3 {
+    color: #7ddbb0;
+    margin-right: 10px;
+}
+
+.side-nav{
+    padding: 0;
+    margin: 35px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;    
+}
+
+.side-nav > table {
+    
+    margin:0;
+    padding: 0;
+    
+    
+}
+
+.side-nav > table tr td{  
+    padding: 9px 15px;    
+    text-align: left;
+}
+
+.side-nav >  table tr td > img{
+    margin-left: 25px;
+}
+
+
+.addProjects{
+    width: 185px;
+    padding: 10px 15px;
+    margin: 20px 5px;
+    background-color: #7ddbb0;
+    border: 1px solid #7ddbb0;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.topic{
+    
+    padding:8px 0px; 
+    font-size: 19px;
+    font-family: 'Robot', sans-serif;
+    color: #7ddbb0;
+}
+
+
+.side-info{
+    padding:0;
+    margin:0;
+    display: flex;
+}
+
+.side-info > img{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    padding: 0;
+    margin:0;
+}
+
+.side-user-info > li{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.side-user-info {
+    margin-top: 15px;
+}
+
+.user-name{
+    
+    padding: 0;
+    font-size: 16px;
+}
+
+.dash-icons{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:20px;
+}
+
+.card{
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-dash{
+    padding: 0;
+    margin-top:50px;
+
+}
+
+.body-wrapper{
+    padding: 0;
+    margin: 0;
+}
+
